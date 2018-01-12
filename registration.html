@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="registration" method="post">
+        <h2>Registration form</h2>
+        <div class="info">
+          <p><label for="email">Email:</label></p>
+          <input type="text" class="fillable email">
+          <div class="caution emessage">Please, enter your email address</div>
+        </div>
+        <div class="info">
+          <p><label for="username">Username:</label></p>
+          <input type="text" class="fillable username">
+          <div class="caution umessage">Please, enter username</div>
+        </div>
+        <div class="info">
+          <p><label for="password">Password:</label></p>
+          <input type="password" class="fillable password">
+          <div class="caution pmessage">Please, enter password</div>
+          <div class="caution pvmessage">Password should be at least 6 character in length</div>
+        </div>
+        <input type="button" class="register" value="Submit">
+        <div id="success">Registration successful! </div>
+      </form>
+    </div>
+  </body>
+</html>

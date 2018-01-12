@@ -1,0 +1,84 @@
+
+.container{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 35px;
+  color: #64ef32;
+  text-shadow: 2px 2px #000000;
+}
+
+.fillable{
+  border-color: #64ef32;
+  padding: 10px 20px;
+}
+
+.caution{
+  color: #ff0505;
+}
+
+label{
+  font-size: 20px;
+
+}
+
+.registration{
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 30px 20px;
+  border: 2px solid;
+  border-color: #64ef32;
+  background-color: #d2ffaf;
+}
+
+.info{
+  margin-top: 30px;
+}
+
+.register{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 5px 74px;
+  background-color: #64ef32;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#success {
+  display: none;
+  color: #64ef32;
+  font-size: 20px;
+}
+
+.caution{
+  color: #64ef32;
+  font-size: 20px;
+}
+
+.fill{
+  display: none;
+}
+
+.emessage{
+  display: none;
+}
+
+.umessage{
+  display: none;
+}
+
+.pmessage{
+  display: none;
+}
+
+.pvmessage{
+  display: none;
+}
